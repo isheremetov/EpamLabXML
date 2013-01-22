@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xs:element name="knife">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="weapon" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="type" type="xs:string" />
+							<xs:element name="handy" type="xs:string" />
+							<xs:element name="origin" type="xs:string" />
+							<xs:element name="visual">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="width" type="xs:int" />
+										<xs:element name="height" type="xs:int" />
+										<xs:element name="material" type="xs:string" />
+										<xs:element name="handle">
+											<xs:complexType>
+												<xs:attribute name="material" use="required" />
+												<xs:attribute name="kind" use="optional" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="krovostok" type="xs:boolean" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="value" type="xs:boolean" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

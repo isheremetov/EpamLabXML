@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="knife.xsd">
+  <weapon>
+    <type>Нож</type>
+    <handy>Одноручное</handy>
+    <origin>Россия</origin>
+    <visual>
+      <width>20</width>
+      <height>5</height>
+      <material>Сталь</material>
+      <handle kind="Дуб" material="Дерево"/>
+      <krovostok>true</krovostok>
+    </visual>
+    <value>true</value>
+  </weapon>
+  <weapon>
+    <type>Кинжал</type>
+    <handy>Одноручное</handy>
+    <origin>Белоруссия</origin>
+    <visual>
+      <width>30</width>
+      <height>6</height>
+      <material>Сталь</material>
+      <handle material="Сталь"/>
+      <krovostok>false</krovostok>
+    </visual>
+    <value>false</value>
+  </weapon>
+    <weapon>
+    <type>Меч</type>
+    <handy>Двуручное</handy>
+    <origin>Россия</origin>
+    <visual>
+      <width>150</width>
+      <height>10</height>
+      <material>Сталь</material>
+      <handle kind="Береза" material="Дерево"/>
+      <krovostok>true</krovostok>
+    </visual>
+    <value>false</value>
+  </weapon>
+    <weapon>
+    <type>Сабля</type>
+    <handy>Одноручное</handy>
+    <origin>Украина</origin>
+    <visual>
+      <width>60</width>
+      <height>6</height>
+      <material>Сталь</material>
+      <handle material="Пластик"/>
+      <krovostok>false</krovostok>
+    </visual>
+    <value>true</value>
+  </weapon>
+</knife>
